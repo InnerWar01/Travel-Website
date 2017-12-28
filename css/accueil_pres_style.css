@@ -1,0 +1,53 @@
+body {
+	background-color: #ffffff;
+	height: 100%;
+	line-height: 1.625;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+  h1 {
+	text-align: center;
+	font-family: Gentium Basic;
+	font-style: normal;
+	font-size: 60px;
+	color: black;
+	padding-top: 7%;
+ }
+ 
+   h2 {
+	text-align: center;
+	font-family: Gentium Basic;
+	font-style: normal;
+	font-size: 25px;
+	color: black;
+ }
+ 
+
+ TABLE {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	font-family: Gentium Basic;
+	font-size: 20px;
+	margin: 10px;
+	color: black;
+}
+
+.mlt_zoom img {
+    width: 80%;
+}
+
+
+.mlt_zoom a:hover img {
+    width: 100%;
+}
+
+*:hover {
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}

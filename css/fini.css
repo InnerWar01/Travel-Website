@@ -1,0 +1,93 @@
+body {
+	background-color: rgb(250, 243, 237);
+	line-height: 200%;
+}
+
+img.return {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 1%;
+}
+
+img.return:hover {
+	width: 55px;
+	height: 55px;
+}
+
+.tooltip {
+    position: relative;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #2da1c4;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 4.5%;
+    margin-left: -60px;
+	opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #2da1c4 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+	opacity: 1;
+}
+
+h4 {
+	text-align: center;
+	color: #4f4f4f;
+	font-style: italic;
+}
+
+#fin_img {
+	width: 100%;
+	margin-bottom: -2%;
+}
+
+#container {
+	width: 50%;
+	height: 40%;
+	margin: 0 25% 0% 25%;
+	padding-top: 2%;
+	box-shadow: 1px 0 11px rgba(50, 50, 50, 0.74);
+}
+
+#submit {
+	margin: 5% 40% 5% 40%;
+	background-color: #80b3ff;
+	color: rgb(255, 255, 255);
+	border-radius: 3px;
+	font-size: 150%;
+	cursor: pointer;
+	width: 20%;
+}
+
+#submit:hover {
+	background-color: #8585e0;
+	border: 3px solid #8585e0;
+}
+
+*:hover {
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}

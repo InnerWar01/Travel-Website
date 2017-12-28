@@ -1,0 +1,146 @@
+#site-footer{
+	padding-top: 5%;
+	background-image: url("../img/Footer/footer-img.jpg");
+	background-position: 0 100%;
+    background-size: cover; 
+	background-repeat: no-repeat;
+	font-family: 'Lato',sans-serif;
+    font-size: 16px;
+	font-weight: 200;
+	color: #040000;
+	clear: both;
+}
+
+#wrap {
+	max-width: 90%;
+	padding: 0 100px 0 80px;
+	position: relative;
+}
+
+.footer-left {
+	float: left;
+	max-width: 60%;
+	width: 100%;
+}
+
+.footer-left-item {
+	padding: 0 5% 0 5%;
+	float: left;
+	width: 40%;
+}
+
+.footer-left-item.voyage {
+    width: 30%;
+}
+
+.footer-left-item.contact {
+    width: 40%;
+}
+
+.footer-left h4, .footer-right h4 {
+	border-bottom: 1px dashed #b3ffff;
+    text-transform: uppercase;
+    font-size: 20px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.footer-left ul li {
+	list-style-type: none;
+}
+
+#site-footer a {
+	color: #040000;
+    font-weight: 300;
+	text-decoration: none;
+}
+
+#site-footer a:hover {
+	color: white;
+}
+
+.adress, .telephone, .email {
+	margin: 4% 0 4% 0;
+}
+
+.address {
+	background-image: url("../img/Footer/icon-location.png");
+	background-repeat: no-repeat;
+    background-size: 20px 20px;
+	background-position: left center;
+	text-align: right;
+}
+
+.telephone {
+	background-image: url("../img/Footer/icon-telephone.png");
+	background-repeat: no-repeat;
+    background-size: 20px 20px;
+	background-position: left center;
+	text-align: center;
+}
+
+.email {
+	background-image: url("../img/Footer/icon-email.png");
+	background-repeat: no-repeat;
+    background-size: 20px 20px;
+	background-position: left center;
+	text-align: center;
+}
+
+.footer-right {
+	float: right;
+	max-width: 40%;
+	width: 100%;
+}
+
+.description {
+	text-align: center;
+}
+
+.creds {
+    display: table;
+    width: 100%;
+}
+
+.creds p {
+	text-align: center;
+}
+
+@media (max-width: 880px) {
+
+	#site-footer{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-left-item.voyage{
+		margin: 5% 10% 5% 13%;
+	}
+	
+	#site-footer .footer-left{
+		display: block;
+		width: 100%;
+		margin: 5% 20% 5% 20%;
+		text-align: center;
+	}
+	
+	#site-footer .footer-right {
+		display: block;
+		width: 100%;
+		margin: 5% 0% 5% 0%;
+		text-align: center;
+	}
+}
+
+*:hover {
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
