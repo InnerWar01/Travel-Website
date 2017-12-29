@@ -6,18 +6,19 @@
 				<ul>
 					<li>
 						<a href="<?php 
+									require "path.php";
 									if(isset($_SESSION['Username'])) 
-												echo "..\\form.php"; 
-											else echo "..\sign_in.php";?>">Planifiez votre voyage</a>
+												echo "form.php"; 
+											else echo "sign_in.php";?>">Planifiez votre voyage</a>
 					<li>
 					<li>
-						<a href="..\accueils\accueil_villes.php">Destinations</a>
+						<a href="<?php require "path.php";?>accueils\accueil_villes.php">Destinations</a>
 					</li>
 					<li>
-						<a href="..\accueils\accueil_circuit.php">Circuits</a>
+						<a href="<?php require "path.php";?>accueils\accueil_circuit.php">Circuits</a>
 					</li>
 					<li>
-						<a href="..\Home_page.php">Accueil</a>
+						<a href="<?php require "path.php";?>Home_page.php">Accueil</a>
 					</li>
 				</ul>
 			</div>

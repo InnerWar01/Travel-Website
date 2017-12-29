@@ -11,7 +11,7 @@
 	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Réservation</title> 
-	<link rel="stylesheet" href="css\form.css">
+	<link rel="stylesheet" href="<?php require "path.php";?>css\form.css">
 </head>
 
 <body>
@@ -152,7 +152,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 		$_SESSION['date_fin'] = $_POST['date_fin'];
 		$_SESSION['quantity1'] = $_POST['quantity1'];
 		$_SESSION['quantity2'] = $_POST['quantity2'];
-		header('Location: ..\form_resp.php');
+		header('Location: http://localhost/Travel_Australia/form_resp.php');
 	}
 }
 
@@ -167,7 +167,7 @@ function test_input($data) {
 <div id="form_container">
 
 <div id="formHeader">
-	<img id="form_img" src="..\img\Formulaire\beach_kangoroo.jpg" alt="Image formulaire">
+	<img id="form_img" src="<?php require "path.php";?>img\Formulaire\beach_kangoroo.jpg" alt="Image formulaire">
 </div>
 
 <div id="form-content">

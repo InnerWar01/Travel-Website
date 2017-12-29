@@ -11,7 +11,7 @@
 	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Résumé</title> 
-	<link rel="stylesheet" href="..\css\form_resp.css">
+	<link rel="stylesheet" href="<?php require "path.php";?>css\form_resp.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
 <div id="sum_container">
 
 	<div id="sumHeader">
-		<img id="sum_img" src="..\img\Formulaire\relax.jpg" alt="Image kangoroo">
+		<img id="sum_img" src="<?php require "path.php";?>img\Formulaire\relax.jpg" alt="Image kangoroo">
 	</div>
 
 <div id='sum_content'>

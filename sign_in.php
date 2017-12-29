@@ -11,7 +11,7 @@
 	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sign-in</title> 
-	<link rel="stylesheet" href="css\Sign_User.css">
+	<link rel="stylesheet" href="<?php require "path.php";?>css\Sign_User.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
 			$conn = new mysqli($servername, $username, $password, $dbname);
 			// Check connection
 			if ($conn->connect_error) {
-			die("Connection failed: " . $conn->connect_error);
+				die("Connection failed: " . $conn->connect_error);
 			}
 			
 // define variables and set to empty values
@@ -90,7 +90,7 @@ function test_input($data) {
 			<span class="error"><?php echo $signErr;?></span>
 			
 			<div class="sign">
-				Quoi? Pas de compte? <a href="register.php">inscrivez-vous</a> immédiatement pour 
+				Quoi? Pas de compte? <a href="<?php require "path.php";?>register.php">inscrivez-vous</a> immédiatement pour 
 				réserver un voyage et pour commenter.
 			</div>
 			<input type="submit" value="SIGN IN" id="submit">

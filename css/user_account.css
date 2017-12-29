@@ -36,10 +36,6 @@ ul li a.top_nav {
 	text-decoration: none;
 	font-size: 70%;
 	line-height: 63px;
-	background-image: url("../img/User/icon_map.jpg");
-	background-repeat: no-repeat;
-    background-size: 30px 30px;
-	background-position: left center;
 }
 
 ul li a.top_nav:hover {

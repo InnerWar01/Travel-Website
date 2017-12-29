@@ -29,27 +29,27 @@
 		<CAPTION></CAPTION>
 			<TR>
 			<TH>Sydney<br>
-			<a href="..\destinations\Sydney.php"><img src="..\img\Accueils\Destinations\Sydney.jpg" alt=Sydney></a></TH>
+			<a href="..\destinations\Sydney.php"><img src="..\img\Accueils\Sydney.jpg" alt=Sydney></a></TH>
 			<TH>Alice Springs<br>
-			<a href="..\destinations\Alice_Springs.php"><img src="..\img\Accueils\Destinations\AliceSprings.jpg" alt=Alice Springs></TH></a>
+			<a href="..\destinations\Alice_Springs.php"><img src="..\img\Accueils\AliceSprings.jpg" alt=Alice Springs></TH></a>
 			<TH>Cairns (+Great Barrier Reef)<br>
-			<a href="..\destinations\Cairns.php"><img src="..\img\Accueils\Destinations\Cairns.jpg" alt=Cairn></TH></a>
+			<a href="..\destinations\Cairns.php"><img src="..\img\Accueils\Cairns.jpg" alt=Cairn></TH></a>
 			<TH>Melbourne<br>
-			<a href="..\destinations\Melbourne.php"><img src="..\img\Accueils\Destinations\Melbourne.jpg" alt=Mebourne></TH></a>
+			<a href="..\destinations\Melbourne.php"><img src="..\img\Accueils\Melbourne.jpg" alt=Mebourne></TH></a>
 			<TH>Perth<br>
-			<a href="..\destinations\Perth.php"><img src="..\img\Accueils\Destinations\Perth.jpg" alt=Perth></TH></a>
+			<a href="..\destinations\Perth.php"><img src="..\img\Accueils\Perth.jpg" alt=Perth></TH></a>
 			</TR>
 			<TR>
 			<TH>Brisbane<br>
-			<a href="..\destinations\Brisbane.php""><img src="..\img\Accueils\Destinations\Brisbane.jpg" alt=Brisbane></a></TH>
+			<a href="..\destinations\Brisbane.php"><img src="..\img\Accueils\Brisbane.jpg" alt=Brisbane></a></TH>
 			<TH>Hobart<br>
-			<a href="..\destinations\Hobart.php"><img src="..\img\Accueils\Destinations\Hobart.jpg" alt=Hobart></TH></a>
+			<a href="..\destinations\Hobart.php"><img src="..\img\Accueils\Hobart.jpg" alt=Hobart></TH></a>
 			<TH>Darwin<br>
-			<a href="..\destinations\Darwin.php"><img src="..\img\Accueils\Destinations\Darwin.jpg" alt=Darwin></TH></a>
+			<a href="..\destinations\Darwin.php"><img src="..\img\Accueils\Darwin.jpg" alt=Darwin></TH></a>
 			<TH>Adelaide<br>
-			<a href="..\destinations\Adelaide.php"><img src="..\img\Accueils\Destinations\Adelaide.jpg" alt=Adelaide></TH></a>
+			<a href="..\destinations\Adelaide.php"><img src="..\img\Accueils\Adelaide.jpg" alt=Adelaide></TH></a>
 			<TH>Gold Coast<br>
-			<a href="..\destinations\The_Gold_Coast.php"><img src="..\img\Accueils\Destinations\GoldCoast.jpg" alt=Gold Coast></TH></a>
+			<a href="..\destinations\The_Gold_Coast.php"><img src="..\img\Accueils\GoldCoast.jpg" alt=Gold Coast></TH></a>
 			</TR>
 	</TABLE>
 	</div>

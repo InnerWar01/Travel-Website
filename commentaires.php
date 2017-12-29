@@ -10,7 +10,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="..\css\commentaire.css">
+	<link rel="stylesheet" href="<?php require "path.php";?>css\commentaire.css">
 </head>
         
 <body>
@@ -34,7 +34,7 @@ $donnees = $req->fetch();
 <div class="com">
 	<div class="tooltip">
 		<a href="blog.php">
-			<img class="return" src="..\img\Blog\return.png" alt="Return icon">
+			<img class="return" src="<?php require "path.php";?>img\Blog\return.png" alt="Return icon">
 		</a>
 		<span class="tooltiptext">Retour</span>
 	</div>
@@ -79,7 +79,7 @@ $donnees = $req->fetch();
 		   </ul>
 		</div>
 
-		<img class="divide" src="..\img\Blog\divider.png" alt="Comment divider">
+		<img class="divide" src="<?php require "path.php";?>img\Blog\divider.png" alt="Comment divider">
 		<?php
 		} // Fin de la boucle des commentaires
 		$req->closeCursor();

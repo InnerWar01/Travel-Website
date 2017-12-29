@@ -11,15 +11,15 @@
 	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Résumé</title> 
-	<link rel="stylesheet" href="..\css\fini.css">
+	<link rel="stylesheet" href="<?php require "path.php";?>css\fini.css">
 </head>
 
 <body>
 
 <div id="container">
 	<div class="tooltip">
-		<a href="user_account.php">
-			<img class="return" src="..\img\Blog\return.png" alt="Return icon">
+		<a href="<?php require "path.php";?>user_account.php">
+			<img class="return" src="<?php require "path.php";?>img\Blog\return.png" alt="Return icon">
 		</a>
 		<span class="tooltiptext">Retour</span>
 	</div>
@@ -28,7 +28,7 @@
 	La feuille récapitulative vous sera envoyé sur votre messagerie. 
 	On vous remercie de nous choisir et on vous souhaite un très bon sejour.</h4>
 
-	<img id="fin_img" src="..\img\Formulaire\travel.jpg" alt="Image travel">
+	<img id="fin_img" src="<?php require "path.php";?>img\Formulaire\travel.jpg" alt="Image travel">
 </div>
 
 <?php
