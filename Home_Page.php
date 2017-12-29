@@ -10,9 +10,9 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="..\css\home_page.css">
-	<link rel="stylesheet" href="..\css\nav.css">
-	<link rel="stylesheet" href="..\css\footer.css">
+	<link rel="stylesheet" href="<?php require "path.php";?>css\home_page.css">
+	<link rel="stylesheet" href="<?php require "path.php";?>css\nav.css">
+	<link rel="stylesheet" href="<?php require "path.php";?>css\footer.css">
 </head>
 
 <body>
@@ -25,8 +25,8 @@
     <div class="contener_slide">
 	
 	<?php
-	  $bg = array('..\img\Accueil\Image1.jpg', '..\img\Accueil\Image2.jpg', '..\img\Accueil\Image3.jpg', '..\img\Accueil\Image4.jpg', 
-					'..\img\Accueil\Image5.jpg', '..\img\Accueil\Image6.jpg', '..\img\Accueil\Image7.jpg', '..\img\Accueil\Image8.jpg' ); // array of filenames
+	  $bg = array('img\Accueil\Image1.jpg', 'img\Accueil\Image2.jpg', 'img\Accueil\Image3.jpg', 'img\Accueil\Image4.jpg', 
+					'img\Accueil\Image5.jpg', 'img\Accueil\Image6.jpg', 'img\Accueil\Image7.jpg', 'img\Accueil\Image8.jpg' ); // array of filenames
 	  $j = 1;
 	 
 	  for ($j = 1; $j <= 3; $j++)
@@ -43,7 +43,7 @@
 <br><br>
 
 <div id="intro">
-	<img id="map" src="..\img\Accueil\australia_map.png" alt="Australia on map">
+	<img id="map" src="img\Accueil\australia_map.png" alt="Australia on map">
 	<div id="intro-text">
 	<h1>Plongez au coeur de l'Australie</h1>
 		<p>
@@ -65,8 +65,8 @@
 	<h3 class="name-block">Découvrez les villes</h3>
 	<div class="bloc-center">
 		<div class="img">
-			<a target="_blank" href="..\destinations\Adelaide.php">
-				<img src="..\img\Destinations\Adelaide\adelaide.jpg" alt="Adelaide">
+			<a target="_blank" href="<?php require "path.php";?>destinations\Adelaide.php">
+				<img src="img\Destinations\Adelaide\adelaide.jpg" alt="Adelaide">
 			</a>
 			<div class="desc">Adelaide</div>
 		</div>
@@ -74,8 +74,8 @@
 
 	<div class="bloc-center">
 		<div class="img">
-			<a target="_blank" href="..\destinations\Alice_Springs.php">
-				<img src="..\img\Destinations\Alice_Springs\Alice Springs.jpg" alt="Alice Springs">
+			<a target="_blank" href="<?php require "path.php";?>destinations\Alice_Springs.php">
+				<img src="img\Destinations\Alice_Springs\Alice Springs.jpg" alt="Alice Springs">
 			</a>
 			<div class="desc">Alice Springs</div>
 		</div>
@@ -83,8 +83,8 @@
 
 	<div class="bloc-center">
 		<div class="img">
-			<a target="_blank" href="..\destinations\Brisbane.php">
-				<img src="..\img\Destinations\Brisbane\brisbane.jpg" alt="Brisbane">
+			<a target="_blank" href="<?php require "path.php";?>destinations\Brisbane.php">
+				<img src="img\Destinations\Brisbane\brisbane.jpg" alt="Brisbane">
 			</a>
 			<div class="desc">Brisbane</div>
 		</div>
@@ -92,8 +92,8 @@
 
 	<div class="bloc-center">
 		<div class="img">
-			<a target="_blank" href="..\destinations\Cairns.php">
-				<img src="..\img\Destinations\Cairns\cairns.jpg" alt="Cairns">
+			<a target="_blank" href="<?php require "path.php";?>destinations\Cairns.php">
+				<img src="img\Destinations\Cairns\cairns.jpg" alt="Cairns">
 			</a>
 			<div class="desc">Cairns</div>
 		</div>
@@ -101,8 +101,8 @@
 
 	<div class="bloc-center">
 		<div class="img">
-			<a target="_blank" href="..\destinations\Darwin.php">
-				<img src="..\img\Destinations\Darwin\darwin.jpg" alt="Darwin">
+			<a target="_blank" href="<?php require "path.php";?>destinations\Darwin.php">
+				<img src="img\Destinations\Darwin\darwin.jpg" alt="Darwin">
 			</a>
 			<div class="desc">Darwin</div>
 		</div>
@@ -110,8 +110,8 @@
 	
 	<div class="bloc-center">
 		<div class="img">
-			<a target="_blank" href="..\destinations\Hobart.php">
-				<img src="..\img\Destinations\Hobart\hobart.jpg" alt="Hobart">
+			<a target="_blank" href="<?php require "path.php";?>destinations\Hobart.php">
+				<img src="img\Destinations\Hobart\hobart.jpg" alt="Hobart">
 			</a>
 			<div class="desc">Hobart</div>
 		</div>
@@ -119,8 +119,8 @@
 	
 	<div class="bloc-center">
 		<div class="img">
-			<a target="_blank" href="..\destinations\Melbourne.php">
-				<img src="..\img\Destinations\Melbourne\Melbourne.jpg" alt="Melbourne">
+			<a target="_blank" href="<?php require "path.php";?>destinations\Melbourne.php">
+				<img src="img\Destinations\Melbourne\Melbourne.jpg" alt="Melbourne">
 			</a>
 			<div class="desc">Melbourne</div>
 		</div>
@@ -128,8 +128,8 @@
 	
 	<div class="bloc-center">
 		<div class="img">
-			<a target="_blank" href="..\destinations\Perth.php">
-				<img src="..\img\Destinations\Perth\perth.jpg" alt="Perth">
+			<a target="_blank" href="<?php require "path.php";?>destinations\Perth.php">
+				<img src="img\Destinations\Perth\perth.jpg" alt="Perth">
 			</a>
 			<div class="desc">Perth</div>
 		</div>
@@ -137,8 +137,8 @@
 	
 	<div class="bloc-center">
 		<div class="img">
-			<a target="_blank" href="..\destinations\Sydney.php">
-				<img src="..\img\Destinations\Sydney\sydney.jpg" alt="Sydney">
+			<a target="_blank" href="<?php require "path.php";?>destinations\Sydney.php">
+				<img src="img\Destinations\Sydney\sydney.jpg" alt="Sydney">
 			</a>
 			<div class="desc">Sydney</div>
 		</div>
@@ -146,8 +146,8 @@
 	
 	<div class="bloc-center">
 		<div class="img">
-			<a target="_blank" href="..\destinations\The_Gold_Coast.php">
-				<img src="..\img\Destinations\The_Gold_Coast\Gold Coast.jpg" alt="The Gold Coast">
+			<a target="_blank" href="<?php require "path.php";?>destinations\The_Gold_Coast.php">
+				<img src="img\Destinations\The_Gold_Coast\Gold Coast.jpg" alt="The Gold Coast">
 			</a>
 			<div class="desc">The Gold Coast</div>
 		</div>
@@ -158,8 +158,8 @@
 	<h3 class="name-block">Découvrez les circuits</h3>
 	<div class="bloc-center">
 		<div class="img">
-			<a target="_blank" href="..\circuits\circuit1.php">
-				<img src="..\img\Circuits\Circuit1\intro.jpg" alt="Circuit 1">
+			<a target="_blank" href="<?php require "path.php";?>circuits\circuit1.php">
+				<img src="img\Circuits\Circuit1\intro.jpg" alt="Circuit 1">
 			</a>
 			<div class="desc">Trois semaine à partir de Melbourne, Victoria</div>
 		</div>
@@ -167,8 +167,8 @@
 
 	<div class="bloc-center">
 		<div class="img">
-			<a target="_blank" href="..\destinations\Alice_Springs.php">
-				<img src="..\img\Circuits\Circuit2\intro.jpg" alt="Circuit 2">
+			<a target="_blank" href="<?php require "path.php";?>circuits\circuit2.php">
+				<img src="img\Circuits\Circuit2\intro.jpg" alt="Circuit 2">
 			</a>
 			<div class="desc">Train de légende avec l'Indian Pacific</div>
 		</div>
