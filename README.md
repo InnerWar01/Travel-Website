@@ -1,5 +1,5 @@
 # Travel-Website
-My first website dedicated to those who are interested in visiting Australia. It was done as a project for a course in my second year of bachelor.
+My first website dedicated to those who are interested in visiting Australia. It was done as a project for a course in my second year of bachelor. For a more thorough description of the website check "A LIRE.docx".
 
 1) Install an application that allows to manage a server and databases (e.g. WampServer)
 
