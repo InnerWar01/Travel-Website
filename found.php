@@ -4,21 +4,21 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="..\css\test.css">
+	<link rel="stylesheet" href="<?php require "path.php";?>css\test.css">
 </head>
 
    <body>
 	<div id="form_container">
 	
 		<div class="tooltip">
-			<a href="Home_page.php">
-				<img class="return" src="..\img\Blog\return.png" alt="Return icon">
+			<a href="<?php require "path.php";?>Home_page.php">
+				<img class="return" src="<?php require "path.php";?>img\Blog\return.png" alt="Return icon">
 			</a>
 			<span class="tooltiptext">Retour</span>
 		</div>
 	
 		<div id="formHeader">
-			<img id="form_img" src="..\img\Nav_Bar\found.jpg" alt="Found Image">
+			<img id="form_img" src="<?php require "path.php";?>img\Nav_Bar\found.jpg" alt="Found Image">
 		</div>
 
 		<div id="form-content">

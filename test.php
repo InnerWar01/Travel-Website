@@ -4,14 +4,14 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="..\css\test.css">
+	<link rel="stylesheet" href="<?php require "path.php";?>css\test.css">
 </head>
 
    <body>
 	<div id="form_container">
 	
 		<div id="formHeader">
-			<img id="form_img" src="..\img\Nav_Bar\search.jpg" alt="Search Image">
+			<img id="form_img" src="<?php require "path.php";?>img\Nav_Bar\search.jpg" alt="Search Image">
 		</div>
 
 		<div id="form-content">
