@@ -29,8 +29,8 @@
 			<legend>Récapitulatif</legend>
 		<?php
 			$servername = "localhost";
-			$username = "root";
-			$password = "1991";
+			$username = "#";
+			$password = "#";
 			$dbname = "travel_australia";
 
 			// Create connection

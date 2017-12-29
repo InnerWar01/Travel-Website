@@ -30,7 +30,7 @@
 				   
 				try
 				{
-				 $bdd = new PDO('mysql:host=localhost;dbname=travel_australia', 'root', '1991');
+				 $bdd = new PDO('mysql:host=localhost;dbname=travel_australia', '#', '#');
 				}
 				catch(Exception $e)
 				{
