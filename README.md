@@ -13,4 +13,4 @@ My first website dedicated to those who are interested in visiting Australia. It
     - fini.php
     - sign_in.php
 
-3) Test the website on localhost
+3) Test the website on localhost starting with Home_Page.php
